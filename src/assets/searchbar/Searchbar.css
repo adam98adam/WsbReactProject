@@ -1,0 +1,33 @@
+.Searchbar {
+    height: 4vh;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.SearchbarContainer {
+    display: flex;
+    background-color: white;
+    padding-left:1vh;
+    padding-right: 1vh;
+}
+
+.SearchbarIcon {
+    display: flex;
+    align-items: center;
+}
+
+.SearchbarImage {
+    display: flex;
+    align-items: center;
+}
+
+.SearchbarImage > img {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+}
+
+.Searchbar, .SearchbarIcon, .SearchbarImage {
+    font-size: 2vh;
+}

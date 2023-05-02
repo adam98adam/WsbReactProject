@@ -1,0 +1,27 @@
+.SidebarElement {
+    display: flex;
+    margin: 2rem;
+}
+
+.SidebarElementWithSign {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.SidebarLink {
+    text-decoration: none;
+    margin: 1vh;
+}
+
+.Sign {
+
+}
+
+.SidebarElementWithSign:hover, .SidebarElement:hover {
+    background-color: lightskyblue;
+}
+
+.SidebarElementWithSign > h1.Sign::after {
+    content: ">";
+}
