@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 function Page(props) {
     const navigate = useNavigate()
-    function test() {
+    function redirectToLoginPage() {
       if ((sessionStorage.getItem('username') === null) && (sessionStorage.getItem('password') === null)) {
         console.log('hello')
         navigate('/login')
@@ -15,7 +15,7 @@ function Page(props) {
   
     useEffect(
         () => {
-                test()
+            redirectToLoginPage()
               }
     )
 
